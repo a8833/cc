@@ -1,20 +1,18 @@
-# cc
-自用cc脚本
+# 自用cc脚本
 DDoS API - PHP
 支持 秘钥 / 自定义方法
 需要安装 PHP-SSH2 扩展
 http://127.0.0.1/api.php?key=秘钥&host=IP地址&port=端口&time=时间&method=方法
 
-NTP注入器
-已去除 "请勿泄露" 字符
-./ntpfill ntp.txt 4000
-./ntpfill 列表文件 注入次数
-https://s.threatbook.cn/report/file/c8b8735dc2bd10b207518cbc0aa6f8dbb525a7fa04b5ab0c1d8eeb973f6fcbf7/?env=centos_7_x64
-
 DDoS Concurrent API - PHP PLUS
 支持 秘钥 / 自定义方法 / 并发 / 自定义命令
 需要安装 PHP-SSH2 扩展
 http://127.0.0.1/api.php?key=秘钥&host=IP地址&port=端口&time=时间&method=方法&max=并发
+
+NTP注入器
+已去除 "请勿泄露" 字符
+./ntpfill ntp.txt 4000
+./ntpfill 列表文件 注入次数
 
 NTP攻击脚本 (汉化)
 ./ntp <目标IP> <端口> <列表文件> <线程> <pps限制器|默认-1> <时间(秒)>
